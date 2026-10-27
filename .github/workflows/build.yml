@@ -16,6 +16,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
+      - name: Make gradlew executable and fix line endings
+        run: |
+          sed -i 's/\r$//' gradlew
+          chmod +x gradlew
       - name: Build Debug APK
         run: ./gradlew assembleDebug --no-daemon
       - name: Upload APK Artifact

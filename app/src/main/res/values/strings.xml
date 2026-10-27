@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Akıllı TV Kumanda</string>
+    <string name="accessibility_service_description">Netflix, YouTube, Kick, Twitch, Stremio gibi uygulamalarda kumanda ile yön tuşlarıyla gezmeden doğrudan (İntroyu Atla, Abone Ol, Takip Edilen Kanalları Telefona Getir, Altyazı Seç) gibi özel tuşların çalışmasını sağlar.</string>
+</resources>
